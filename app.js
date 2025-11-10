@@ -71,8 +71,35 @@
 //     if(i===5) continue;
 //     console.log(i);
 // }
-function greet() {
-    console.log("Hello");
-}
+// function greet() {
+//     console.log("Hello");
+// }
 
-greet();
+// greet();
+function add(a,b){
+    return a+b;
+
+}
+let sum = add(5,3);
+console.log(sum);
+
+function multiplication(a,b){
+    return a*b;
+
+}
+let multiple = multiplication(5,3);
+console.log(multiple);
+
+function division(a,b){
+    return a/b;
+
+}
+let divide = division(5,3);
+console.log(divide);
+
+function subtract(a,b){
+    return a-b;
+
+}
+let subtraction = subtract(5,3);
+console.log(subtraction);
